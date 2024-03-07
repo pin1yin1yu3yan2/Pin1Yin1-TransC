@@ -4,7 +4,8 @@ CXXSET = -std=c++20
 INCLUDE = include
 LIB = -lstdc++
 
-Object = 
+Object = src/main.o \
+		 
 
 %.o: %.cpp
 	$(CXX) $(CXXSET) -I$(INCLUDE) -c $< -o $@
