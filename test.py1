@@ -12,7 +12,7 @@ jie2 fen1
 
 Class Class can1 zheng3 a jie2
 han2
-    zhe4 de3 a deng3 a fen1
+    zhe4 de1 a deng3 a fen1
 jie2
 
 shi4
@@ -54,7 +54,7 @@ shi4 bool e = false && true; jie2
 zu3 6 zheng3 aa deng3 han2 1 1 4 5 1 4 jie2 fen1
 shi4 int aa[6] = {1,1,4,5,14}; jie2
 
-zu3 zi4 dd deng3 chuan4 tiansuohaoer fan1
+zu3 zi4 dd deng3 chuan4 tiansuohaoer fen1
 shi4 char dd[] = "tiansuohaoer"; jie2
 
 a deng3 a jia1 a jian3 a cheng2 a chu2 a fen1
@@ -62,7 +62,7 @@ shi4 a = a + a - a * a / a; jie2
 
 ruo4 can1 can1 1 da4 0 jie2 huo4 can1 2 xiao3 3 jie2 yu3 fei1 fo3 jie2
 han2 jie2
-ce2 han2 jie2
+ze2 han2 jie2
 shi4 if ((1>0)||(2<3)&&!false){} else{} jie2
 
 zheng3 i deng3 0 fen1
@@ -70,7 +70,7 @@ chong2 can1 i xiao3 5 jie2
 han2 i deng3 i jia1 1 fen1 jie2
 shi4 int i = 0; while(i < 5){ i = i + 1;} jie2
 
-ying3 bian4 aaa deng3 a fen1
+yin3 bian4 aaa deng3 a fen1
 shi4 auto& aaa = a; jie2
 
 fan3 0 fen1
