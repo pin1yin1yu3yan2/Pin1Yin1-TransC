@@ -58,7 +58,7 @@
     | `you4yin3` | define a right value reference  | 右值引用 | reference | `you4yin3 bian4 bbb` |
     | `she4` | define a const | 设 | reference | `she4 zheng3 x` |
     | `zhi3` | defince a pointer | 指针 | pointer | `zhi3 zheng3 x` |
-    | `jing4` | define a static | 静态 | static | `jing4 zheng3 a` |
+    
     
     1. `zu3`
         you can specify the number of elements in the array by writing `zu3 n`, n is a `wu2fu2 zheng3`
@@ -87,7 +87,14 @@
         `zhi3` refers to `*` in cpp
 
     example of using many extend words together: `zu3 114514 kuan1 32 wu2fu2 yin3 zheng3 a` means `unsigend int a[114514]&` in cpp
-    
+
+3. Advance Extend Words
+
+    | Word Name | Description | Chinese | English | Usage |
+    | --- | --- | --- | --- | --- |
+    | `jing4` | define as static | 静态 | static | `jing4 zheng3 a` |
+    | `dao3chu1` | export a variable or function | 导出 | export | `dao3chu1 zheng3 fn can1 jie2` |
+
 ### Syntax
 
 1. Structs Definitions
@@ -100,6 +107,7 @@
     | `jie2gou4` | define a struct | 结构体 | struct |
 
 2. Symbols
+
     | Keyword Name | Description | Chinese | Symbol |
     | --- | --- | --- | --- |
     | `han2` | the start of a code block | 函，函数，也就输大括号 | { |
@@ -112,6 +120,7 @@
     | `biao1` | label | 标签 | : |
 
 3. Control FLow
+
     | Keyword Name | Description | Chinese | Symbol |
     | --- | --- | --- | --- |
     | `ruo4` | if | 若 | if |
@@ -124,6 +133,7 @@
 ### Operators
 
 1. Algebra Operators
+
     | Keyword Name | Description | Chinese | Symbol |
     | --- | --- | --- | --- |
     | `jia1` | add | 加 | + |
@@ -135,6 +145,7 @@
     | `dui4` | log | 对数 | log() |
 
 2. Compare Operators
+
     | Keyword Name | Description | Chinese | Symbol |
     | --- | --- | --- | --- |
     | `tong2` | equal to| 同 | == |
@@ -145,6 +156,7 @@
     | `xiao3deng3` | less than or equal to| 小于等于 | <= |
 
 3. Logic Operators
+
     | Keyword Name | Description | Chinese | Symbol |
     | --- | --- | --- | --- |
     | `yu3` | and | 且 | && |
@@ -152,6 +164,7 @@
     | `fei1` | not | 非 | ! |
 
 4. Arithmetic Operators
+
     | Keyword Name | Description | Chinese | Symbol |
     | --- | --- | --- | --- |
     | `wei4yu3` | bitwise and | 逐位与 | & |
@@ -162,6 +175,7 @@
     | `you4yi2` | bitwise right shift | 逐位右移 | >> |
 
 5. Special Operators
+
     | Keyword Name | Description | Chinese | Symbol |
     | --- | --- | --- | --- |
     | `qu3zhi3` | get address | 取地址 | & |
@@ -169,3 +183,10 @@
     | `fang3su4` | access element by address | 从地址访问元素 | -> |
     | `zhuan3` | type conversion | 类型转换 | () |
     | `chang2du4` | get size | 获取长度 | sizeof |
+
+### Preprocess
+
+| Process Name | Description | Chinese | English | Usage |
+| --- | --- | --- | --- | --- |
+| `yin3ru4` | include a source file or a library | 引入 | include | `yin3ru4 wen2 std` |
+| `ti4huan4` | replace a word | 替换 | replace | `ti4huan4 a b` |
